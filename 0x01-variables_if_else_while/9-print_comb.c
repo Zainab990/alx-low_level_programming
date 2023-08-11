@@ -11,20 +11,22 @@
 int main(void)
 
 {
-	int number;
+	int number = 0;
 
-		for (number = 0; number < 10; number++)
+	while (number < 10)
 	{
-		putchar(number + '0');
+	putchar(number + '0');
 
-		if (number != 9)
+	if (number != 9)
 	{
 		putchar(',');
 		putchar(' ');
 	}
+
+	number++;
 	}
 
-		putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
