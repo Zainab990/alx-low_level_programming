@@ -3,6 +3,11 @@
 
 
 #include <stdio.h>
+#include "main.h"
+
+/**
+ Description of _putchar
+ */
 
 int _putchar(char c)
 
