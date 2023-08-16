@@ -1,24 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point of the program
  *
- * Description: putchar
+ * Description: putchar using prototype
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
+	char str[] = "_putchar";
+	int lt;
+
+	for (lt - 0; lt < 8; lt++)
+		_putchar(str[lt]);
+
 	_putchar('\n');
 
 	return (0);
