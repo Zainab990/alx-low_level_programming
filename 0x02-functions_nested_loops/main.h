@@ -1,14 +1,8 @@
-# ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
-
-
 #include <stdio.h>
-#include "main.h"
 
-/**
- Description of _putchar
- */
+	/* Function prototype declaration */
+	int _putchar(char c);
 
-int _putchar(char c)
-
-#endif
+#endif /* MAIN_H */
