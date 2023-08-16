@@ -20,10 +20,9 @@ void times_table(void)
 		}
 		else
 		{
-		printf(", %2d", product);
+		printf(", %3d", product);
 		}
 	}
 	printf("\n");
 	}
 }
-
