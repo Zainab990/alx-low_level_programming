@@ -20,7 +20,7 @@ void times_table(void)
 		}
 		else
 		{
-		printf(", %3d", product);
+		printf(",%2d", product);
 		}
 	}
 	printf("\n");
