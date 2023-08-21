@@ -3,12 +3,12 @@
 /**
  * reset_to_98 - Swaps the values of two integers.
  *
- * @a: int parameter.
+ * @n: int parameter.
  *
  * Return: ()
  */
 
-void reset_to_98(int *a)
+void reset_to_98(int *n)
 {
-	*a = 98;
+	*n = 98;
 }
